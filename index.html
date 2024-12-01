@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吴伟胜 - 个人学术网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: black;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #f8f9fa;
+            padding: 5px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Adjust the gap as needed */
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 12px; /* Smaller font size for the nav items */
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+            display: none; /* Hide all content sections by default */
+        }
+        .content.active {
+            display: block; /* Show the active content section */
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+        }
+        footer input[type="text"] {
+            width: 70%;
+            padding: 5px;
+        }
+        footer input[type="submit"] {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>吴伟胜</h1>
+</header>
+
+<nav>
+    <a href="#about" class="nav-link" onclick="showContent('about')">About</a>
+    <a href="#teaching" class="nav-link" onclick="showContent('teaching')">Teaching</a>
+    <a href="#publications" class="nav-link" onclick="showContent('publications')">Publications</a>
+    <a href="#talks" class="nav-link" onclick="showContent('talks')">Talks and Conferences</a>
+    <a href="#seminar" class="nav-link" onclick="showContent('seminar')">Seminar</a>
+</nav>
+
+<div id="about" class="content active">
+    <h2>About</h2>
+    <p>职称：教授</p> 
+    <p>学历：博士</p> 
+    <p>电子邮件：wuweisheng@xmu.edu.cn</p> 
+    <p>办公室：<a href="https://www.xmu.edu.cn" target="_blank">厦门大学</a>海韵园数学科学学院B楼B604</p>
+    <p style="font-size: 20px;">工作经历：</p>
+    <p>1. 2021/05- 厦门大学，教授</p>
+    <p>2. 2016/09-2021/04，中国农业大学，讲师，副教授</p>  
+    <p>3. 2014/10-2016/09，北京大学，博士后</p> 
+    <p style="font-size: 20px;">教育经历：</p>
+    <p>1. 2008/08-2014/08：Pennsylvania State University 数学系，理学博士 
+    <p>2. 2004/09-2008/07: 中国科学技术大学数学系，理学学士</p> 
+</div>
+<div id="teaching" class="content">
+    <h2>Teaching</h2>
+    <p>讲授过的本科生课程有《实变函数》、《数学分析I》、《高等数学》、《离散数学》、《测度与积分》等，研究生课程有《遍历论》、《动力系统基础》。</p>
+</div>
+
+
+<div id="publications" class="content">
+    <h2>Publications</h2>
+    <p style="font-size: 20px;">论文：</p>
+    <p>32. Huyi Hu and Weisheng Wu, Unstable entropies along invariant laminations, Journal d'Analyse Mathematique, Accepted.</p>
+   <p>31. Weisheng Wu, Volume asymptotics, Margulis function and rigidity beyond nonpositive curvature, Mathematische Annalen, Published Online,
+DOI: <url id="" type="url" status="" title="" wc="">https://doi.org/10.1007/s00208-023-02710-x</p></url>   
+   <p>30. Xueting Tian and Weisheng Wu, Unstable pressure and thermodynamic formalism in partially hyperbolic systems, Journal of Dynamics and Differential Equations, Published Online,DOI: <url id="" type="url" status="" title="" wc="">https://doi.org/10.1007/s10884-023-10282-2</p></url>  
+  
+   <p>29. Weisheng Wu, Fei Liu and Fang Wang, On the ergodicity of geodesic flows on surfaces without focal points, Ergodic Theory and Dynamical Systems, Published Online,DOI: https://doi.org/10.1017/etds.2022.114 
+
+   <p>28. Weisheng Wu, On relative metric mean dimension with potential and variational principles, Journal of Dynamics and Differential Equations, 35 (2023), no. 3, 2313-2335.
+
+   <p>27. 
+    <a href="E:\xmu\21Wu2021_Article_LocalPressureOfSubsetsAndMeasu.pdf" download>Xiaochen Li and Weisheng Wu, Bernoulli property of equilibrium states for certain partially hyperbolic diffeomorphisms, Journal of Dynamics and Differential Equations, 35 (2023), no. 2, 1843-1862.</a>
+   <p style="font-size: 20px;">学术专著：</p>
+   <p>刘飞, 王方, 吴伟胜，测地流的动力学，38万字，2019年11月，科学出版社.
+</div>
+
+<div id="talks" class="content">
+    <h2>Talks and Conferences</h2>
+    <p style="font-size: 20px;">研究方向：</p>
+    <p>研究方向为动力系统和遍历论。感兴趣的课题包括部分双曲动力系统，黎曼和芬斯勒几何中的测地流，齐性动力系统与丢番图逼近，动力系统中的维数理论等。</p>
+    <p style="font-size: 20px;">社会兼职：</p>
+    <p>美国《数学评论》(Mathematical Reviews) 评论员、德国《数学文摘》(Zentralblatt MATH) 评论员</p>
+</div>
+
+<div id="seminar" class="content">
+    <p style="font-size: 20px;">主持项目：</p>
+    <p>1. 2023年, 国家高层次青年人才</p>
+    <p>2. 2022-2027年，国家重点研发计划青年科学家项目: 部分双曲系统复杂性问题的研究, 项目负责人</p>
+    <p>3. 2021-2024年, 国家自然科学基金面上项目: 几类微分动力系统的Kolmogorov-Bernoulli等价性问题, 主持</p>
+    <p>4. 2018-2020年, 国家自然科学基金青年科学基金项目: 部分双曲动力系统的非稠密轨道和中间熵, 主持</p>
+    <p>5. 2016-2019年, 国家自然科学基金面上项目: 正熵动力系统的不变集、测度和复杂性, 参与</p>
+    <p>6. 2015-2016年, 中国博士后科学基金第八批特别资助: 偏双曲动力系统非稠密轨道的Hausdorff维数及相关问题, 主持</p>
+    <p>7. 2013年10月, Pritchard Dissertation Fellowship (优秀博士论文奖), Pennsylvania State University</p>
+
+</div>
+
+<!-- Repeat the above div structure for 'teaching', 'publications', 'talks', and 'seminar' with appropriate content -->
+
+<footer>
+    <form action="/search" method="get">
+        <input type="text" name="query" placeholder="Search...">
+        <input type="submit" value="Search">
+    </form>
+</footer>
+
+<script>
+function showContent(sectionId) {
+    var contents = document.getElementsByClassName('content');
+    for (var i = 0; i < contents.length; i++) {
+       contents[i].style.display = 'none';
+   }
+    document.getElementById(sectionId).style.display = 'block';
+}
+</script>
+
+</body>
+</html>
