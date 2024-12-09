@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 24px; /* 标题大小 */
+  color: #333; /* 标题颜色 */
+  margin-bottom: 20px; /* h2 与下一个元素（如 p 标签）之间的距离 */
+}
+
+p {
+  font-size: 16px; /* 段落字体大小 */
+  line-height: 1.6; /* 行高，可以调整以增加或减少行间距 */
+  margin-bottom: 20px; /* 段落之间的距离 */
+}
+ul {
+  list-style: none; /* 移除默认的列表标记 */
+  padding: 0; /* 移除默认的内边距 */
+}
+
+li {
+  margin-bottom: 15px; /* 设置列表项之间的底部外边距 */
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 8px;
+  vertical-align: top;
+}
+
+img {
+  border: thin solid black;
+  height: 11em; /* Adjust as needed */
+}
+
+a {
+  text-decoration: none;
+  color: #0645AD; /* A nice blue */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.fullname {
+  font-size: 130%;
+  padding-bottom: 18px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center; /* 使导航项在容器中居中对齐 */
+  align-items: center;
+  border-top: 2px solid #ccc; /* 上方灰色线条 */
+    border-bottom: 2px solid #ccc; /* 下方灰色线条 */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 10px; /* 调整间距以确保所有项都能放下 */
+}
+
+.nav-item {
+  flex-grow: 1; /* 导航项根据内容增长 */
+  text-align: center; /* 文本居中对齐 */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px; /* 调整字体大小以适应一行显示 */
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+
+main {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.content {
+  flex: 7;
+  padding-right: 20px;
+  max-width: 1200px; /* 根据需要调整最大宽度 */
+}
+
+.sidebar {
+  flex: 3;
+  width: 300px;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.sidebar form {
+  margin-bottom: 20px;
+}
+
+.sidebar input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.sidebar input[type="submit"] {
+  padding: 10px;
+}
+
+.useful-links {
+  margin-top: 20px;
+}
+
+.useful-links h3 {
+  color: #333;
+}
+
+.useful-links p {
+  color: #666;
+}
